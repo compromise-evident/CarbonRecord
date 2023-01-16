@@ -16,7 +16,7 @@ Preserve data on fluorocarbon fishing line - imprescriptible multi-millennium st
   <img src="https://github.com/compromise-evident/CarbonRecord/blob/main/Other/Dented-line-top-light.jpg">
 </p>
 
-# Preserving 2 files as personal longevity experiment
+# Preserving 2 files (personal longevity experiment)
 
 [Authorship.cpp](https://github.com/compromise-evident/Authorship) and [Hypership.cpp](https://github.com/compromise-evident/Hypership) (.zip-compressed, 36,077 Bytes, 2 Bytes/cm on 200-yard line.)
 
