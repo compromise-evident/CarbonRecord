@@ -18,7 +18,7 @@ Preserve data on fluorocarbon fishing line.
 
 # Purpose
 
-Imprescriptible multi-millennium storage and longevity experiment.
+Imprescriptible multi-millennium storage, and longevity experiment.
 
 # Preserving
 
