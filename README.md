@@ -1,6 +1,5 @@
 <!---
-Preserve data on fluorocarbon fishing line - imprescriptible
-multi-millennium storage, and longevity experiment.
+Preserve data on fluorocarbon fishing line - imprescriptible multi-millennium storage.
 -->
 
 
