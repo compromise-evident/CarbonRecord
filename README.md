@@ -18,7 +18,7 @@ Preserve data on fluorocarbon fishing line - imprescriptible multi-millennium st
 
 # Preserving 2 files as personal longevity experiment
 
-Authorship.cpp and Hypership.cpp (.zip-compressed, 36,077 Bytes on $10 200-yard line, 2 Bytes per centimeter.)
+[Authorship.cpp](https://github.com/compromise-evident/Authorship) & [Hypership.cpp](https://github.com/compromise-evident/Hypership) (.zip-compressed, 36,077 Bytes, 2 Bytes/cm on 200-yard line.)
 
 # Progress
 
