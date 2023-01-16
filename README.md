@@ -23,3 +23,7 @@ Imprescriptible multi-millennium storage, and longevity experiment.
 # Preserving
 
 Authorship.cpp and Hypership.cpp (zipped, 36,077 Bytes on 200-yard line, 2 Bytes per centometer.)
+
+# Progress
+
+Building tiny denting-tools and line feed control.
