@@ -4,7 +4,7 @@ Preserve data on fluorocarbon fishing line.
 
 
 
-## Fishing line samples dented with dull cutting tool
+## Dented pure fluorocarbon fishing line samples
 
 <p align="center">
   <img src="https://github.com/compromise-evident/CarbonRecord/blob/main/Other/Undented-line.jpg">
