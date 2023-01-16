@@ -1,5 +1,6 @@
 <!---
-Preserve data on fluorocarbon fishing line.
+Preserve data on fluorocarbon fishing line - imprescriptible
+multi-millennium storage, and longevity experiment.
 -->
 
 
@@ -15,10 +16,6 @@ Preserve data on fluorocarbon fishing line.
 <p align="center">
   <img src="https://github.com/compromise-evident/CarbonRecord/blob/main/Other/Dented-line-top-light.jpg">
 </p>
-
-# Purpose
-
-Imprescriptible multi-millennium storage, and longevity experiment.
 
 # Preserving
 
