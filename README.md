@@ -25,7 +25,7 @@ Line puller & winder complete. Building denting-tools (mostly waiting for anothe
 </p>
 
 <p align="center">
-  <img src="https://github.com/compromise-evident/CarbonRecord/blob/main/Other/Undented-lineRubber-puller.jpg">
+  <img src="https://github.com/compromise-evident/CarbonRecord/blob/main/Other/Rubber-puller.jpg">
 </p>
 
 <p align="center">
