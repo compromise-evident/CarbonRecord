@@ -28,6 +28,8 @@ Line puller & winder complete. Building denting-tools (mostly waiting for anothe
   <img src="https://github.com/compromise-evident/CarbonRecord/blob/main/Other/Rubber-puller.jpg">
 </p>
 
+For denting the line, I'll over-power these off-set motors but in short bursts, using photoresisted 5V relays.
+
 <p align="center">
   <img src="https://github.com/compromise-evident/CarbonRecord/blob/main/Other/Motors.jpg">
 </p>
