@@ -28,7 +28,12 @@ Line puller & winder complete. Building denting-tools (mostly waiting for anothe
   <img src="https://github.com/compromise-evident/CarbonRecord/blob/main/Other/Rubber-puller.jpg">
 </p>
 
-For denting the line, I'll over-power these off-set motors but in short bursts where they only jerk rather than spin. The motors will be interrupted by photoresistors taped to a laptop screen, in a black terminal having symbols rolling for light (as I had done for RICINkeyboard.)
+For denting the line, I'll over-power these off-set motors but in short bursts where they
+only jerk rather than spin. The motors will be interrupted by photoresistors taped to a
+laptop screen, in a black terminal having symbols rolling for light (as I had done for
+RICINkeyboard.) I have tested this and switching is quite fast and responsive. I had also
+tested more relay stuff and made an explainer that you should familiarize yourself with,
+and maybe acquire such [PCBs](https://github.com/compromise-evident/CarbonRecord/blob/main/Other/5V-relay.png) as they are useful.
 
 <p align="center">
   <img src="https://github.com/compromise-evident/CarbonRecord/blob/main/Other/Motors.jpg">
