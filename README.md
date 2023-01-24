@@ -31,6 +31,10 @@ and maybe acquire such [PCBs](https://github.com/compromise-evident/CarbonRecord
   <img src="https://github.com/compromise-evident/CarbonRecord/blob/main/Other/Motors.jpg">
 </p>
 
+# Update
+
+Actually, I'll use 1 motor but on 2 circuits; one hits hard while the other is lightly-resisted. Now the motor can make 2 different dents, and I get to save one motor for if the other burns, I'll know to reduce power or provide better cooling.
+
 # I'm preserving 2 files myself
 
 [Authorship.cpp](https://github.com/compromise-evident/Authorship) and [Hypership.cpp.](https://github.com/compromise-evident/Hypership) Updating Bytes/cm count with microscope-images...
