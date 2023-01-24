@@ -28,7 +28,7 @@ Line puller & winder complete. Building denting-tools (mostly waiting for anothe
   <img src="https://github.com/compromise-evident/CarbonRecord/blob/main/Other/Rubber-puller.jpg">
 </p>
 
-For denting the line, I'll over-power these off-set motors but in short bursts, using photoresisted 5V relays.
+For denting the line, I'll over-power these off-set motors but in short bursts where they only jerk rather than spin. The motors will be interrupted by photoresistors taped to a laptot screen, in a black terminal having symbols rolling for light (as I had done for RICINkeyboard.)
 
 <p align="center">
   <img src="https://github.com/compromise-evident/CarbonRecord/blob/main/Other/Motors.jpg">
