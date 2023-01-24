@@ -18,7 +18,19 @@ Preserve data on fluorocarbon fishing line - imprescriptible multi-millennium st
 
 # Progress
 
-Line puller and winder 99% complete. Building denting-tools (mostly waiting for another USB-relay.)
+Line puller & winder complete. Building denting-tools (mostly waiting for another 5V relay.)
+
+<p align="center">
+  <img src="https://github.com/compromise-evident/CarbonRecord/blob/main/Other/Puller-and-winder.jpg">
+</p>
+
+<p align="center">
+  <img src="https://github.com/compromise-evident/CarbonRecord/blob/main/Other/Undented-lineRubber-puller.jpg">
+</p>
+
+<p align="center">
+  <img src="https://github.com/compromise-evident/CarbonRecord/blob/main/Other/Motors.jpg">
+</p>
 
 # I'm preserving 2 files myself
 
