@@ -25,7 +25,7 @@ RICINkeyboard.) I have tested the switching, it's
 [responsive.](https://raw.githubusercontent.com/compromise-evident/CarbonRecord/main/Other/5V-relay.png)
 Note that fishing lines will curl in response to the denting; into the direction of where
 dents appear. v2 means lighter denting action, which does not deform the line too much.
-And the denting is applied as drawn--as if on the inner side of a torus.
+And the denting is applied as drawn--on the inner side of the line if treated as a ring.
 
 
 <br>
