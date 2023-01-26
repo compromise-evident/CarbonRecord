@@ -22,7 +22,7 @@ For denting the line, I'll over-power off-set motors but in short bursts where t
 only jerk rather than spin. The motors will be interrupted by photoresistors taped to a
 laptop screen, in a black terminal having symbols rolling for light (as I had done for
 RICINkeyboard.) I have tested the switching, it's responsive.
-[See relay.](https://github.com/compromise-evident/CarbonRecord/blob/main/Other/5V-relay.png)
+[See relay.](https://raw.githubusercontent.com/compromise-evident/CarbonRecord/main/Other/5V-relay.png)
 Note that fishing lines will curl in response to the denting; into the direction of where
 dents appear. v2 means lighter denting action, which does not deform the line too much.
 And the denting is applied as drawn--as if on the inner side of a torus.
