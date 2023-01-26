@@ -25,7 +25,6 @@ RICINkeyboard.) I have tested the switching, it's responsive.
 [See relay.](https://github.com/compromise-evident/CarbonRecord/blob/main/Other/5V-relay.png)
 
 <br>
-<br>
 
 # Old versions
 
@@ -37,7 +36,6 @@ RICINkeyboard.) I have tested the switching, it's responsive.
   <img src="https://github.com/compromise-evident/CarbonRecord/blob/main/Other/Version_1/Rubber-puller.jpg">
 </p>
 
-<br>
 <br>
 
 # I'm preserving 2 files myself
