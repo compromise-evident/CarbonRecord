@@ -24,9 +24,8 @@ laptop screen, in a black terminal having symbols rolling for light (as I had do
 RICINkeyboard.) I have tested the switching, it's responsive.
 [See relay.](https://github.com/compromise-evident/CarbonRecord/blob/main/Other/5V-relay.png)
 
-# I'm preserving 2 files myself
-
-[Authorship.cpp](https://github.com/compromise-evident/Authorship) and [Hypership.cpp.](https://github.com/compromise-evident/Hypership) Updating Bytes/cm count with microscope-images...
+<br>
+<br>
 
 # Old versions
 
@@ -37,3 +36,7 @@ RICINkeyboard.) I have tested the switching, it's responsive.
 <p align="center">
   <img src="https://github.com/compromise-evident/CarbonRecord/blob/main/Other/Version_1/Rubber-puller.jpg">
 </p>
+
+# I'm preserving 2 files myself
+
+[Authorship.cpp](https://github.com/compromise-evident/Authorship) and [Hypership.cpp.](https://github.com/compromise-evident/Hypership) Updating Bytes/cm count with microscope-images...
