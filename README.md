@@ -37,6 +37,9 @@ RICINkeyboard.) I have tested the switching, it's responsive.
   <img src="https://github.com/compromise-evident/CarbonRecord/blob/main/Other/Version_1/Rubber-puller.jpg">
 </p>
 
+<br>
+<br>
+
 # I'm preserving 2 files myself
 
 [Authorship.cpp](https://github.com/compromise-evident/Authorship) and [Hypership.cpp.](https://github.com/compromise-evident/Hypership) Updating Bytes/cm count with microscope-images...
