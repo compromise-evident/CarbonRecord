@@ -5,7 +5,7 @@ Preserve data on fluorocarbon fishing line - imprescriptible multi-millennium st
 
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/compromise-evident/CarbonRecord/main/Other/Layout.jpg">
+  <img src="https://raw.githubusercontent.com/compromise-evident/CarbonRecord/main/Other/Dented-line.jpg">
 </p>
 
 # MAJOR UPDATE: v2
