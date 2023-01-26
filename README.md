@@ -15,7 +15,7 @@ Preserve data on fluorocarbon fishing line - imprescriptible multi-millennium st
 </p>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/compromise-evident/CarbonRecord/blob/main/Other/Reservoir_materials.jpg">
+  <img src="https://raw.githubusercontent.com/compromise-evident/CarbonRecord/main/Other/Reservoir_materials.jpg">
 </p>
 
 For denting the line, I'll over-power off-set motors but in short bursts where they
@@ -33,11 +33,11 @@ And the denting is applied as drawn--on the inner side of the line if treated as
 # Old versions
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/compromise-evident/CarbonRecord/blob/main/Other/Version_1/Puller-and-winder.jpg">
+  <img src="https://raw.githubusercontent.com/compromise-evident/CarbonRecord/main/Other/Version_1/Puller-and-winder.jpg">
 </p>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/compromise-evident/CarbonRecord/blob/main/Other/Version_1/Rubber-puller.jpg">
+  <img src="https://raw.githubusercontent.com/compromise-evident/CarbonRecord/main/Other/Version_1/Rubber-puller.jpg">
 </p>
 
 <br>
