@@ -14,6 +14,10 @@ Preserve data on fluorocarbon fishing line - imprescriptible multi-millennium st
 
 https://user-images.githubusercontent.com/75550631/215457914-69d32f73-8303-4fc8-962b-10e2f1c2aa0f.mp4
 
+<p align="center">
+  <img src="https://raw.githubusercontent.com/compromise-evident/CarbonRecord/main/Other/Denter.jpg">
+</p>
+
 <br>
 
 # I'm preserving 2 files myself
