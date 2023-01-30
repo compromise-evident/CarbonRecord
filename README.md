@@ -32,4 +32,4 @@ https://user-images.githubusercontent.com/75550631/215457914-69d32f73-8303-4fc8-
 
 # I'm preserving 2 files myself
 
-[Authorship.cpp](https://github.com/compromise-evident/Authorship) and [Hypership.cpp.](https://github.com/compromise-evident/Hypership) Updating Bytes/cm count with microscope-images...
+[Authorship.cpp](https://github.com/compromise-evident/Authorship) and [Hypership.cpp](https://github.com/compromise-evident/Hypership) - my centerpiece and my masterpiece.
