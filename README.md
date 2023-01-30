@@ -22,6 +22,12 @@ https://user-images.githubusercontent.com/75550631/215457914-69d32f73-8303-4fc8-
   <img src="https://raw.githubusercontent.com/compromise-evident/CarbonRecord/main/Other/Rubber-puller.jpg">
 </p>
 
+<p align="center">
+  <img src="https://raw.githubusercontent.com/compromise-evident/CarbonRecord/main/Other/Terminal.png">
+</p>
+
+[Auditing in the browser?](https://coliru.stacked-crooked.com/a/2c261e25bfe2c402)
+
 <br>
 
 # I'm preserving 2 files myself
