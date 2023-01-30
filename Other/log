@@ -1,0 +1,15 @@
+CarbonRecord log
+
+
+
+Version 1.0.0   Uses synchronous  microwave  motor for consistent line pull. The
+                second motor skeleton is only used as a  resistor  via its coils
+                so the denting-motor does not tear up the line.The mechanism for
+                winding the line back up is purposely permissive in slip so that
+                the line remains tight but not pulled more than given by puller.
+                0 bits are displayed in case you wish to dent for 0 as well, but
+                with a force or style different from 1 bits.  Power is necessary
+                due to the line springing, twisting,  factory-wound with stress,
+                winder-side springing, and dents forcing the line to spring; all
+                the over-built and over-powered  design is actually much needed.
+                Monday, January 30 2023
