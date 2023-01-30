@@ -13,22 +13,8 @@ Preserve data on fluorocarbon fishing line - imprescriptible multi-millennium st
 </p>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/compromise-evident/CarbonRecord/main/Other/Reservoir_materials.jpg">
+  <img src="https://github.com/compromise-evident/CarbonRecord/blob/main/Other/CarbonRecord.av1">
 </p>
-
-For denting the line, I'll over-power off-set motors but in short bursts where they
-only jerk rather than spin. The motors will be interrupted by photoresistors taped to a
-laptop screen, in a black terminal having symbols rolling for light (as I had done for
-RICINkeyboard.) I have tested the switching, it's
-[responsive.](https://raw.githubusercontent.com/compromise-evident/CarbonRecord/main/Other/5V-relay.png)
-Note that fishing lines will curl in response to the denting; into the direction of where
-dents appear. v2 means lighter denting action, which does not deform the line too much.
-And the denting is applied as drawn--on the inner side of the line if treated as a ring.
-
-
-<br>
-
-# Old versions
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/compromise-evident/CarbonRecord/main/Other/Version_1/Puller-and-winder.jpg">
