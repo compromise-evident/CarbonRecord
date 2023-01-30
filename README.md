@@ -18,6 +18,10 @@ https://user-images.githubusercontent.com/75550631/215457914-69d32f73-8303-4fc8-
   <img src="https://raw.githubusercontent.com/compromise-evident/CarbonRecord/main/Other/Denter.jpg">
 </p>
 
+<p align="center">
+  <img src="https://raw.githubusercontent.com/compromise-evident/CarbonRecord/main/Other/Rubber-puller.jpg">
+</p>
+
 <br>
 
 # I'm preserving 2 files myself
