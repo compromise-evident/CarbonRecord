@@ -17,7 +17,7 @@ Preserve data on fluorocarbon fishing line - imprescriptible multi-millennium st
 </p>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/compromise-evident/CarbonRecord/main/Other/Version_1/Puller-and-winder.jpg">
+  <img src="https://github.com/compromise-evident/CarbonRecord/blob/main/Other/CarbonRecord.av1.mp4">
 </p>
 
 <p align="center">
