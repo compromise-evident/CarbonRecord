@@ -41,7 +41,7 @@ https://user-images.githubusercontent.com/75550631/215457914-69d32f73-8303-4fc8-
 
 <br>
 
-Why version 2?
+# Why version 2?
 
 Brushed motors are meant to spin, not jerk; every long once in a while it's unresponsive.
 
