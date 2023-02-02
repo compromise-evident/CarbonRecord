@@ -20,6 +20,10 @@ https://user-images.githubusercontent.com/75550631/216291489-019e72ae-b6fe-4cee-
 </p>
 
 <p align="center">
+  <img src="https://raw.githubusercontent.com/compromise-evident/CarbonRecord/main/Other/Denter_2.jpg">
+</p>
+
+<p align="center">
   <img src="https://raw.githubusercontent.com/compromise-evident/CarbonRecord/main/Other/Terminal.png">
 </p>
 
