@@ -2,8 +2,16 @@ CarbonRecord log
 
 
 
+Version 1.0.0   Previous use of a brushed motor resulted in that motor misfiring
+Device  2       every long once in a while. I guess graphite brushes are not for
+                jerking action. v2 uses an electromagnet of a 12-volt automotive
+                relay,  pulling a metal  slammer. Placing a magnet on top of the
+                slammer allows it to slam with a much greater force. The slammer
+                bottom is sharpened into a short blade.
+                Thursday, February 2 2023
+
 Version 1.0.0   Uses synchronous  microwave  motor for consistent line pull. The
-                second motor skeleton is only used as a  resistor  via its coils
+Device  1       second motor skeleton is only used as a  resistor  via its coils
                 so the denting-motor does not tear up the line.The mechanism for
                 winding the line back up is purposely permissive in slip so that
                 the line remains tight but not pulled more than given by puller.
