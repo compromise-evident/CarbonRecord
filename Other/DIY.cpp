@@ -57,7 +57,7 @@ int main()
 			place_value /= 2;
 		}
 		
-		//..........Writes 1 byte to file based on binary[].
+		//..........Processing 8 bits at a time.
 		for(int bit = 0; bit < 8; bit++)
 		{	if(binary[bit] == 0)
 			{	/*      ______________________________________________________
