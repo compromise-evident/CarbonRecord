@@ -53,3 +53,9 @@ Brushed motors are meant to spin, not jerk; every long once in a while it's unre
 # I'm preserving 2 files myself
 
 [Authorship.cpp](https://github.com/compromise-evident/Authorship) and [Hypership.cpp](https://github.com/compromise-evident/Hypership) - my centerpiece and my masterpiece. For certainty, I'll write a 1 header/nibble.
+
+<br>
+
+# Inspiration
+
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/fzI9FNjXQ0o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
