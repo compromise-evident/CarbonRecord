@@ -23,15 +23,15 @@ https://user-images.githubusercontent.com/75550631/216291489-019e72ae-b6fe-4cee-
   <img src="https://raw.githubusercontent.com/compromise-evident/CarbonRecord/main/Other/Denter_2.jpg">
 </p>
 
+https://user-images.githubusercontent.com/75550631/216505700-cb351c48-0b0d-4508-a006-fa156a993960.mp4
+
 <p align="center">
   <img src="https://raw.githubusercontent.com/compromise-evident/CarbonRecord/main/Other/Terminal.png">
 </p>
 
 [Auditing in the browser?](https://coliru.stacked-crooked.com/a/473cf3e2cd1be7eb)
 
-
-https://user-images.githubusercontent.com/75550631/216505700-cb351c48-0b0d-4508-a006-fa156a993960.mp4
-
+<br>
 <br>
 
 # Old version
@@ -43,11 +43,13 @@ https://user-images.githubusercontent.com/75550631/215457914-69d32f73-8303-4fc8-
 </p>
 
 <br>
+<br>
 
 # Why device version 2
 
 Brushed motors are meant to spin, not jerk; every long once in a while it was unresponsive.
 
+<br>
 <br>
 
 # I'm preserving 2 files myself
