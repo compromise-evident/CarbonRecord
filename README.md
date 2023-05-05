@@ -42,7 +42,7 @@ https://user-images.githubusercontent.com/75550631/215457914-69d32f73-8303-4fc8-
   <img src="https://raw.githubusercontent.com/compromise-evident/CarbonRecord/main/Other/Denter.jpg">
 </p>
 
-Brushed motors are meant to spin, not jerk; every long once in a while it was unresponsive hence v2.
+Brushed motors are meant to spin, not jerk; every long once in a while it was unresponsive hence version 2.
 
 <br>
 <br>
