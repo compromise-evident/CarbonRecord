@@ -49,4 +49,4 @@ Brushed motors are meant to spin, not jerk; every long once in a while it was un
 
 # I'm preserving 2 files myself
 
-[Authorship.cpp](https://github.com/compromise-evident/Authorship) and [Hypership.cpp](https://github.com/compromise-evident/Hypership) - my centerpiece and my masterpiece. For certainty, I'll write a 1 header/nibble.
+[Authorship.cpp](https://github.com/compromise-evident/Authorship) and [Hypership.cpp](https://github.com/compromise-evident/Hypership) - my centerpiece and my masterpiece. And for certainty, 1-bit header per nibble.
