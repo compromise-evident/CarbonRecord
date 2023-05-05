@@ -42,12 +42,7 @@ https://user-images.githubusercontent.com/75550631/215457914-69d32f73-8303-4fc8-
   <img src="https://raw.githubusercontent.com/compromise-evident/CarbonRecord/main/Other/Denter.jpg">
 </p>
 
-<br>
-<br>
-
-# Why device version 2
-
-Brushed motors are meant to spin, not jerk; every long once in a while it was unresponsive.
+Brushed motors are meant to spin, not jerk; every long once in a while it was unresponsive hence v2.
 
 <br>
 <br>
