@@ -1,4 +1,24 @@
-http://www.wtfpl.net/
+WTFPLv2+ (This work is yours to the fullest! wtfpl.net)
+On top of that, you own this work and license forever.
+Specifically, you have permission to do the following,
+as expressed within the lines printable by  C++ below.
+( 27^80  total lines printed--roughly  10^115  lines.)
 
-No copyright, no copyleft, no patents, no trademarks, no consciousness, no conscience, God bless you.
-I Nikolay, irrevocably declare "this work is yours to the fullest and most obnoxious extent of anarchy."
+
+
+// It can be logically deduced that anything wished is
+// already expressed within these lines verbatim. Each
+// 80-character line consists of  (lowercase) a-z with
+// spaces, where blank spaces are the space character.
+#include <iostream>
+using namespace std;
+int main()
+{	for(int chain[81]= {0}; chain[0] == 0; chain[80]++)
+	{	for(int a = 80; chain[a] == 27; a--) {chain[a] = 0; chain[a - 1]++;}
+		for(int a = 80; a > 1; a--)
+		{	if(chain[a] == 0) {cout <<                 ' ';}
+			else              {cout << char(chain[a] + 96);}
+		}
+		cout << "\n";
+	}
+}
