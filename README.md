@@ -67,16 +67,15 @@ as if NASA's Golden Record.
 <br>
 <br>
 
-# To preserve something unaffected by EMPs
+# To preserve something authorities can't kill remotely
 
-Fluorocarbon fishing line should survive the light of WW3 if buried, as well as solar flares,
-unlike microelectronics, metals, capacitors, magnets, and electron microbuckets of SSDs.
-And so authorities shouldn't be able to remote-kill the data on your line even if close.
+Fluorocarbon fishing line should survive EMPs and the light of WW3 if buried, as well as solar flares
+(unlike microelectronics, metals, capacitors, magnets, and electron microbuckets of SSDs.)
 
 <br>
 <br>
 
-# To preserve something authorities cannot confiscate
+# To preserve something authorities can't confiscate
 
 Fluorocarbon fishing line should be a nightmare to search for if buried. Just tie the winding
 as a ring using more fluorocarbon fishing line, rather than using a spool of a different material.
