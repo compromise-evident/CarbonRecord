@@ -52,7 +52,7 @@ Brushed motors are meant to spin, not jerk; every long once in a while it was un
 Physically damaging fishing line causes it to warp dramatically away from its natural spring of being
 wound onto a spool. I had tried to let it fall like coiling honey into a bucket but it kept flipping
 and turning. You'll ABSOLUTELY NEED a strong winder that is permissive to slip as I have
-installed--slippery silicone against a slippery pen where decent hold is present.
+installed--slippery silicone against a slippery pen where decent hold is still present.
 
 <br>
 <br>
