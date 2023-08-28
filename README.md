@@ -47,6 +47,35 @@ Brushed motors are meant to spin, not jerk; every long once in a while it was un
 <br>
 <br>
 
-# I'm preserving 2 files myself
+# WARNING
 
-[Authorship.cpp](https://github.com/compromise-evident/Authorship) and [Hypership.cpp](https://github.com/compromise-evident/Hypership) - my centerpiece and my masterpiece. And for certainty, I'll write a 1-bit header per nibble, as will be represented on the instructions-for-aliens much like that of NASA's [Voyager Golden Record.](https://voyager.jpl.nasa.gov/golden-record/)
+Physically damaging fishing line causes it to warp dramatically away from its natural spring of being
+wound onto a spool. I had tried to let it fall like coiling honey into a bucket but it kept flipping
+and turning. You'll ABSOLUTELY NEED a strong winder that is permissive to slip as I have
+installed--slippery silicone against a slippery pen where decent hold is present.
+
+<br>
+<br>
+
+# To preserve something for a few thousand years
+
+Fluorocarbon fishing line won't degrade for a few thousand years, it's cheap, and easy to "write on."
+Eventually, version 3 will be minimalist and improved, then I'll preserve my masterpiece with
+write-integrity, as will be noted and scratched onto the (316 stainless steel?) spool,
+as if NASA's Golden Record.
+
+<br>
+<br>
+
+# To preserve something unaffected by EMPs
+
+Fluorocarbon fishing line should survive the light of WW3 if buried, as well as solar flares,
+unlike microelectronics, metals, capacitors, magnets, and electron microbuckets of SSDs.
+
+<br>
+<br>
+
+# To preserve something authorities cannot confiscate
+
+Fluorocarbon fishing line should be a nightmare to search for if buried. Just tie the winding
+as a ring using more fluorocarbon fishing line, rather than using a spool of a different material.
