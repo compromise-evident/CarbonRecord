@@ -71,6 +71,7 @@ as if NASA's Golden Record.
 
 Fluorocarbon fishing line should survive the light of WW3 if buried, as well as solar flares,
 unlike microelectronics, metals, capacitors, magnets, and electron microbuckets of SSDs.
+And so authorities shouldn't be able to remote-kill the data on your line even if close.
 
 <br>
 <br>
