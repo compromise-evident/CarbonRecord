@@ -57,7 +57,7 @@ installed--slippery silicone against a slippery pen where some friction is still
 <br>
 <br>
 
-# To preserve something for a few thousand years
+# To preserve something authorities can't kill temporally
 
 Fluorocarbon fishing line won't degrade for a few thousand years, it's cheap, and easy to "write on."
 Eventually, version 3 will be minimalist and improved, then I'll preserve my masterpiece with
