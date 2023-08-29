@@ -60,9 +60,6 @@ installed--slippery silicone against a slippery pen where some friction is still
 # To preserve something authorities can't kill by waiting
 
 Fluorocarbon fishing line won't degrade for a few thousand years, it's cheap, and easy to "write on."
-Eventually, version 3 will be minimalist and improved, then I'll preserve my masterpiece with
-write-integrity, as will be noted and scratched onto the (316 stainless steel?) spool,
-as if NASA's Golden Record.
 
 <br>
 <br>
