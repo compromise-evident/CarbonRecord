@@ -76,3 +76,26 @@ Fluorocarbon fishing line should survive EMPs and the light of WW3 if buried, as
 
 Fluorocarbon fishing line should be a nightmare to search for if buried. Just tie the winding
 as a ring using more fluorocarbon fishing line, rather than using a spool of a different material.
+
+<br>
+<br>
+
+# Appendix
+
+CarbonRecord has been written about on
+[HACKADAY](https://hackaday.com/2023/11/08/forever-writing-on-monofilament-fishing-line/)
+by [Dan Maloney](https://hackaday.com/author/dpsm64/). Thank you for the recognition.
+
+The heatsink helps cool a microwave bowl-spinning motor since the device runs for days.
+This motor slowly spins rubber against more rubber, between which fishing line
+is pulled with excellent friction.
+
+The re-spooler on the opposite end gears out from that pulling-rubber,
+using slippery silicone from a shower head. This allows the spool to slip
+so that it cannot re-spool more fishing line than it's given.
+And thanks to the comments in that article, I'll have to settle for
+expensive media in future versions, such as copper wire.
+
+Unfortunately, the boys at Microsoft
+Research [outdid](https://www.youtube.com/watch?v=V7L_wdEuQXs) me so hard,
+I still have nightmares.
