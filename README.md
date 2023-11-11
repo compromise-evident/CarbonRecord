@@ -20,7 +20,7 @@ https://user-images.githubusercontent.com/75550631/216291489-019e72ae-b6fe-4cee-
 </p>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/compromise-evident/CarbonRecord/main/Other/Denter_2_947a8424bc1daca246713118c793b9e00629bada648fad0dc03ee940562e52d4.jpg">
+  <img src="https://raw.githubusercontent.com/compromise-evident/CarbonRecord/main/Other/Denter_2_5391b145e588997ea3d22251aab5d342e63a8aaee8a949a1565fdc305f75e867.jpg">
 </p>
 
 https://user-images.githubusercontent.com/75550631/216505700-cb351c48-0b0d-4508-a006-fa156a993960.mp4
