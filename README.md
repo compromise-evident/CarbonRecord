@@ -97,5 +97,4 @@ And thanks to the comments in that article, I'll have to settle for
 expensive media in future versions, such as copper wire.
 
 Unfortunately, the boys at Microsoft
-Research [outdid](https://www.youtube.com/watch?v=V7L_wdEuQXs) me so hard,
-I still have nightmares.
+Research [outdid](https://www.youtube.com/watch?v=V7L_wdEuQXs) me silly.
