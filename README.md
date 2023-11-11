@@ -9,7 +9,7 @@ Preserve data on fluorocarbon fishing line - imprescriptible multi-millennium st
 </p>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/compromise-evident/CarbonRecord/main/Other/Device.jpg">
+  <img src="https://raw.githubusercontent.com/compromise-evident/CarbonRecord/main/Other/Device_1a337f096d24a562ad99ff50e21ce81fe92e3dbf3bee34faed5e2c39bf2dbcf6.jpg">
 </p>
 
 
