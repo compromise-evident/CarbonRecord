@@ -2,13 +2,18 @@ CarbonRecord log
 
 
 
+Version 1.0.1   Universal drag-n-drop; gets path then fixes it if drag-n-dropped
+Device  2       regardless of single-quote presence & "enter" not being cleared,
+                meaning you can have options before it where user presses enter.
+                Jan 4 2024
+
 Version 1.0.0   Previous use of a brushed motor resulted in that motor misfiring
 Device  2       every long once in a while. I guess graphite brushes are not for
                 jerking action. v2 uses an electromagnet of a 12-volt automotive
                 relay,  pulling a metal  slammer. Placing a magnet on top of the
                 slammer allows it to slam with a much greater force. The slammer
                 bottom is sharpened into a short blade.
-                Thursday, February 2 2023
+                Feb 2 2023
 
 Version 1.0.0   Uses synchronous  microwave  motor for consistent line pull. The
 Device  1       second motor skeleton is only used as a  resistor  via its coils
@@ -20,4 +25,4 @@ Device  1       second motor skeleton is only used as a  resistor  via its coils
                 due to the line springing, twisting,  factory-wound with stress,
                 winder-side springing, and dents forcing the line to spring; all
                 the over-built and over-powered  design is actually much needed.
-                Monday, January 30 2023
+                Jan 30 2023
