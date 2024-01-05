@@ -3,7 +3,7 @@
 /// Nikolay Valentinovich Repnitskiy - License: WTFPLv2+ (wtfpl.net)
 
 
-/* Version 1.0.0
+/* Version 1.0.1
 You may need to turn down the brightness  of your screen  for the photoresistor.
 Dent on fishing line = 1, no dent = 0. Activity & inactivity are spaced equally.
 Data begins & ends with 1 dent, scratch this note on  metal plates per record.*/
@@ -57,20 +57,58 @@ int main()
 	     << "\nTape your photoresistor against the square."
 	     << "\nDrag & drop file into terminal or enter path:\n";
 	
-	char  path_to_file[10000];
-	for(int a = 0; a < 10000; a++) {path_to_file[a] = '\0';} //Fills path_to_file[] with null.
-	cin.getline(path_to_file, 10000);
-	if(path_to_file[0] == '\0') {cout << "\nNo path given.\n"; return 0;}
-	
-	//Fixes path to file if drag & dropped (removes single quotes for ex:)   '/home/nikolay/my documents/Authorship.cpp.tar.bz2'
-	if(path_to_file[0] == '\'')
-	{	for(int a = 0; a < 10000; a++)
-		{	path_to_file[a] = path_to_file[a + 1];
-			if(path_to_file[a] == '\'')
-			{	path_to_file[a    ] = '\0';
-				path_to_file[a + 1] = '\0';
-				path_to_file[a + 2] = '\0';
+	//..........Gets path then fixes it if drag-n-dropped, regardless of single-quote presence and "enter"
+	//..........not being cleared, meaning you can have options before this, where the user presses enter.
+	char path_to_file[10000] = {'\0'};
+	{	for(int a = 0; a < 10000; a++) {path_to_file[a] = '\0';}
+		cin.getline(path_to_file, 10000);
+		if(path_to_file[0] == '\0')
+		{	for(int a = 0; a < 10000; a++) {path_to_file[a] = '\0';}
+			cin.getline(path_to_file, 10000);
+		}
+		if(path_to_file[0] == '\0') {cout << "\nNo path given.\n"; return 0;}
+		
+		//..........Removes last space in path_to_file[].
+		bool existence_of_last_space = false;
+		for(int a = 9999; a > 0; a--)
+		{	if(path_to_file[a] != '\0')
+			{	if(path_to_file[a] == ' ') {path_to_file[a] = '\0'; existence_of_last_space = true;}
 				break;
+			}
+		}
+		
+		//..........Removes encapsulating single-quotes in path_to_file[].
+		bool existence_of_encapsulating_single_quotes = false;
+		if(path_to_file[0] == '\'')
+		{	for(int a = 0; a < 9999; a++)
+			{	path_to_file[a] = path_to_file[a + 1];
+				if(path_to_file[a] == '\0') 
+				{	if(path_to_file[a - 1] != '\'') {cout << "\nBad path.\n"; return 0;}
+					path_to_file[a - 1] = '\0';
+					existence_of_encapsulating_single_quotes = true;
+					break;
+				}
+			}
+		}
+		
+		//..........Replaces all "'\''" with "'" in path_to_file[].
+		int single_quote_quantity = 0;
+		for(int a = 0; a < 10000; a++)
+		{	if(path_to_file[a] == '\'') {single_quote_quantity++;}
+		}
+		
+		if((single_quote_quantity                     >    0)
+		&& (existence_of_last_space                  == true)
+		&& (existence_of_encapsulating_single_quotes == true))
+		{	if((single_quote_quantity % 3) != 0) {cout << "\nBad path.\n"; return 0;}
+			
+			for(int a = 0; a < 9997; a++)
+			{	if(path_to_file[a] == '\'')
+				{	int temp = (a + 1);
+					for(; temp < 9997; temp++)
+					{	path_to_file[temp] = path_to_file[temp + 3];
+					}
+				}
 			}
 		}
 	}
@@ -206,7 +244,6 @@ int main()
 	}
 	
 	cout << "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDone!";
-	return 0;
 }
 
 
@@ -215,50 +252,21 @@ int main()
 
 /*#######*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*##########
 #####'`                                                                  `'#####
-###'                              TLDR: run it                              '###
+###'                                                                        '###
 ##                                                                            ##
-#,                                                                            ,#
-#'                              apt install g++                               '#
-##                           g++ /path/this_file.cpp                          ##
-###,                          /path/resulting_file                          ,###
+#,                                    ASCII                                   ,#
+#'                                                                            '#
+##                                                                            ##
+###,                                                                        ,###
 #####,.                                                                  .,#####
 ##########*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#######*/
 
-/*How to alter this code - Software package repositories for GNU+Linux operating
-systems have all the tools you can imagine. Open a terminal and use this command
-as root to install Geany and g++ on your computer: apt install geany g++   Geany
-is a fast & lightweight text editor and Integrated Development Environment where
-you can write and run code. g++ is the GNU compiler for C++  (industry standard)
-which creates an executable file out of written code. It also displays errors in
-code as you will see in the lower Geany box. Make a new folder somewhere on your
-machine. Paste this code into Geany. For clarity in auditing, enable indentation
-guides: go to View >> Show Indentation Guides. Save the document as anything.cpp
-within the newly-created folder. Use these shortcuts to run the program: F9, F5.
-Once  F9  is used, it needs not be used again unless you had modified this code.
-You may paste over this code with other  .cpp files, or open a new tab & repeat.
-Additionally, executables created by the  F9  command can be drag & dropped into
-terminals (lazy directory pasting) so the executable can run.  exe is in folder.
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-How to make an executable with g++  -  Save this program as anything.cpp, open a
-terminal, and type g++ then space. Drag & drop this saved file into the terminal
-and its directory will be  appended to your pending entry. Click on the terminal
-and press enter.   a.out now resides in the user directory, you may rename it to
-anything.  To run that executable, simply drag and drop it into a terminal, then
-click on the terminal and press enter.  Reminder:  executable's effect-directory
-is /home/user or where you put the executable. Opening  .cpp  files in Geany and
-hitting F9 creates the same executable--movable, renameable, drag & droppable.*/
-
-
-
-
-
-
-
-
-/*
+/* ALL ASCII ARE FULL BYTES OR 8 BITS! ALL FILES ARE STRINGS OF BYTES!
+The tilde character for example is 01111110 having first bit as zero
+since it's unused, but it must still be there so as not to break the
+rule of every Byte being 8 bits! You had always used extended ASCII.
 
 Dec	Hex	 Binary      HTML   Char  Description                  C++ file read/write
-
 
   0  00  00000000     &#0;  NUL   Null                         out_stream.put(0);   or   out_stream << '\0';
   1  01  00000001     &#1;  SOH   Start of Header              out_stream.put(1);
@@ -517,10 +525,43 @@ Dec	Hex	 Binary      HTML   Char  Description                  C++ file read/wri
 254  FE  11111110   &#254;  þ                                  out_stream.put(254);  or   out_stream.put(-2);
 255  FF  11111111   &#255;  ÿ                                  out_stream.put(255);  or   out_stream.put(-1);
 
+With negatives (signed), order = 0 up to 127   then   -128 up to -1       */
 
-    ####*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*####
-    ##'                                         '##
-    #       With negatives (signed), order =      #
-    #        0 up to 127 then  -128 up to -1      #
-    ##,                                         ,##
-    ####*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*##*/
+
+
+
+
+/*#######*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*##########
+#####'`                                                                  `'#####
+###'                              TLDR: run it                              '###
+##                                                                            ##
+#,                                                                            ,#
+#'                              apt install g++                               '#
+##                           g++ /path/this_file.cpp                          ##
+###,                          /path/resulting_file                          ,###
+#####,.                                                                  .,#####
+##########*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#######*/
+
+/*How to alter this code - Software package repositories for GNU+Linux operating
+systems have all the tools you can imagine. Open a terminal and use this command
+as root to install Geany and g++ on your computer: apt install geany g++   Geany
+is a fast & lightweight text editor and Integrated Development Environment where
+you can write and run code. g++ is the GNU compiler for C++  (industry standard)
+which creates an executable file out of written code. It also displays errors in
+code as you will see in the lower Geany box. Make a new folder somewhere on your
+machine. Paste this code into Geany. For clarity in auditing, enable indentation
+guides: go to View >> Show Indentation Guides. Save the document as anything.cpp
+within the newly-created folder. Use these shortcuts to run the program: F9, F5.
+Once  F9  is used, it needs not be used again unless you had modified this code.
+You may paste over this code with other  .cpp files, or open a new tab & repeat.
+Additionally, executables created by the  F9  command can be drag & dropped into
+terminals (lazy directory pasting) so the executable can run.  exe is in folder.
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+How to make an executable with g++  -  Save this program as anything.cpp, open a
+terminal, and type g++ then space. Drag & drop this saved file into the terminal
+and its directory will be  appended to your pending entry. Click on the terminal
+and press enter.   a.out now resides in the user directory, you may rename it to
+anything.  To run that executable, simply drag and drop it into a terminal, then
+click on the terminal and press enter.  Reminder:  executable's effect-directory
+is /home/user or where you put the executable. Opening  .cpp  files in Geany and
+hitting F9 creates the same executable--movable, renameable, drag & droppable.*/
