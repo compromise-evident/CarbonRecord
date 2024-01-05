@@ -1,10 +1,3 @@
-<!--
-/// CarbonRecord - preserve data on fluorocarbon fishing line -
-///                imprescriptible multi-millennium storage.
--->
-
-
-
 <p align="center">
   <img src="https://raw.githubusercontent.com/compromise-evident/CarbonRecord/main/Other/Data-on-the-line.jpg">
 </p>
@@ -12,7 +5,6 @@
 <p align="center">
   <img src="https://raw.githubusercontent.com/compromise-evident/CarbonRecord/main/Other/Device_1a337f096d24a562ad99ff50e21ce81fe92e3dbf3bee34faed5e2c39bf2dbcf6.jpg">
 </p>
-
 
 https://user-images.githubusercontent.com/75550631/216291489-019e72ae-b6fe-4cee-99a8-2ab1f438765e.mp4
 
