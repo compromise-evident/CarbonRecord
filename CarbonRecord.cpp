@@ -1,6 +1,5 @@
 /// CarbonRecord - preserve data on fluorocarbon fishing line -
 ///                imprescriptible multi-millennium storage.
-/// Nikolay Valentinovich Repnitskiy - License: WTFPLv2+ (wtfpl.net)
 
 
 /* Version 1.0.1
