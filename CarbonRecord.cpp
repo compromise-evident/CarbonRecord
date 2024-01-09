@@ -1,4 +1,4 @@
-/// CarbonRecord - preserve data on fluorocarbon fishing line -
+/// CarbonRecord - preserve data on fluorocarbon fishing line -                 Run it: "apt install g++ geany". Open this in Geany. Hit F9 once. F5 to run.
 ///                imprescriptible multi-millennium storage.
 
 
@@ -525,42 +525,3 @@ Dec	Hex	 Binary      HTML   Char  Description                  C++ file read/wri
 255  FF  11111111   &#255;  ÿ                                  out_stream.put(255);  or   out_stream.put(-1);
 
 With negatives (signed), order = 0 up to 127   then   -128 up to -1       */
-
-
-
-
-
-/*#######*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*##########
-#####'`                                                                  `'#####
-###'                              TLDR: run it                              '###
-##                                                                            ##
-#,                                                                            ,#
-#'                              apt install g++                               '#
-##                           g++ /path/this_file.cpp                          ##
-###,                          /path/resulting_file                          ,###
-#####,.                                                                  .,#####
-##########*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#######*/
-
-/*How to alter this code - Software package repositories for GNU+Linux operating
-systems have all the tools you can imagine. Open a terminal and use this command
-as root to install Geany and g++ on your computer: apt install geany g++   Geany
-is a fast & lightweight text editor and Integrated Development Environment where
-you can write and run code. g++ is the GNU compiler for C++  (industry standard)
-which creates an executable file out of written code. It also displays errors in
-code as you will see in the lower Geany box. Make a new folder somewhere on your
-machine. Paste this code into Geany. For clarity in auditing, enable indentation
-guides: go to View >> Show Indentation Guides. Save the document as anything.cpp
-within the newly-created folder. Use these shortcuts to run the program: F9, F5.
-Once  F9  is used, it needs not be used again unless you had modified this code.
-You may paste over this code with other  .cpp files, or open a new tab & repeat.
-Additionally, executables created by the  F9  command can be drag & dropped into
-terminals (lazy directory pasting) so the executable can run.  exe is in folder.
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-How to make an executable with g++  -  Save this program as anything.cpp, open a
-terminal, and type g++ then space. Drag & drop this saved file into the terminal
-and its directory will be  appended to your pending entry. Click on the terminal
-and press enter.   a.out now resides in the user directory, you may rename it to
-anything.  To run that executable, simply drag and drop it into a terminal, then
-click on the terminal and press enter.  Reminder:  executable's effect-directory
-is /home/user or where you put the executable. Opening  .cpp  files in Geany and
-hitting F9 creates the same executable--movable, renameable, drag & droppable.*/
