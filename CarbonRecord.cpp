@@ -47,7 +47,7 @@ int main()
 	cout << "\n\n";
 	for(int a = 0; a < 3; a++)
 	{	cout << "          ";
-		for(int b = 0; b < 6; b++) {cout << char(first) << char(second) << char(third);}
+		for(int b = 0; b < 7; b++) {cout << char(first) << char(second) << char(third);}
 		cout << "\n";
 	}
 	
@@ -148,7 +148,7 @@ int main()
 	//Applies header (1 dent.)
 	for(int a = 0; a < 3; a++)
 	{	cout << "          ";
-		for(int b = 0; b < 6; b++) {cout << char(first) << char(second) << char(third);}
+		for(int b = 0; b < 7; b++) {cout << char(first) << char(second) << char(third);}
 		if(a == 1) {cout << "                                   header";}
 		cout << "\n";
 	}
@@ -192,7 +192,7 @@ int main()
 				
 				for(int a = 0; a < 3; a++)
 				{	cout << "                                   ";
-					for(int b = 0; b < 6; b++) {cout << char(first) << char(second) << char(third);}
+					for(int b = 0; b < 7; b++) {cout << char(first) << char(second) << char(third);}
 					cout << "          " << bit_count << " of " << total_bits << "\n";
 				}
 				for(int a = 0; a < time_consumption; a++) {}
@@ -207,7 +207,7 @@ int main()
 				
 				for(int a = 0; a < 3; a++)
 				{	cout << "          ";
-					for(int b = 0; b < 6; b++) {cout << char(first) << char(second) << char(third);}
+					for(int b = 0; b < 7; b++) {cout << char(first) << char(second) << char(third);}
 					cout << "                                   " << bit_count << " of " << total_bits << "\n";
 				}
 				for(int a = 0; a < time_consumption; a++) {}
@@ -215,7 +215,7 @@ int main()
 			
 			//..........Blank
 			if(bit_count < total_bits)
-			{	for(int a = 0; a < 3; a++) {cout << "                                                   " << bit_count << " of " << total_bits << "\n";}
+			{	for(int a = 0; a < 3; a++) {cout << "                                                    " << bit_count << " of " << total_bits << "\n";}
 				for(int a = 0; a < time_consumption; a++) {}
 			}
 			else {cout << "\n\n\n";}
@@ -230,7 +230,7 @@ int main()
 	//Applies footer (1 dent.)
 	for(int a = 0; a < 3; a++)
 	{	cout << "          ";
-		for(int b = 0; b < 6; b++) {cout << char(first) << char(second) << char(third);}
+		for(int b = 0; b < 7; b++) {cout << char(first) << char(second) << char(third);}
 		if(a == 1) {cout << "                                   footer";}
 		cout << "\n";
 	}
