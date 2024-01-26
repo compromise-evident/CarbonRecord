@@ -2,7 +2,7 @@
 ///                imprescriptible multi-millennium storage.
 
 
-/* Version 1.0.1
+/* Version 1.0.2
 You may need to turn down the brightness  of your screen  for the photoresistor.
 Dent on fishing line = 1, no dent = 0. Activity & inactivity are spaced equally.
 Data begins & ends with 1 dent, scratch this note on  metal plates per record.*/
@@ -26,8 +26,8 @@ int main()
 	\\\\\\\\\\\\\\\\\\\\\\\                              ///////////////////////
 	\\\\\\\\\\\\\\\\\\                                        ////////////////*/
 	
-	long long time_consumption = 60000000; //DEFAULT=60000000. Increase so boxes
-	//                                      roll up slower. Decrease for faster.
+	char time_consumption[100] = {"sleep 0.19"}; //DEFAULT = "sleep 0.19"
+	//                           Increase for slower boxes. Decrease for faster.
 	
 	/*////////////////                                        \\\\\\\\\\\\\\\\\\
 	///////////////////////                              \\\\\\\\\\\\\\\\\\\\\\\
@@ -43,13 +43,10 @@ int main()
 	
 	ifstream in_stream;
 	
-	int first = 226, second = 150, third = 136;
-	cout << "\n\n";
-	for(int a = 0; a < 3; a++)
-	{	cout << "          ";
-		for(int b = 0; b < 7; b++) {cout << char(first) << char(second) << char(third);}
-		cout << "\n";
-	}
+	cout << "\n\n"
+	     << "          ███████\n"
+	     << "          ███████\n"
+	     << "          ███████\n";
 	
 	//Gets path to file from user.
 	cout << "\nMake sure the terminal background is dark."
@@ -133,7 +130,7 @@ int main()
 	in_stream.close();
 	
 	//Lets user begin denting.
-	system("clear");
+	system("clear"); system("clear");
 	cout << "                                                Press enter to\n"
 	     << "                                                roll the boxes...";
 	char wait[1];
@@ -142,21 +139,18 @@ int main()
 	//Rolls blank.
 	for(int a = 0; a < 10; a++)
 	{	cout << "\n\n\n";
-		for(int a = 0; a < time_consumption; a++) {}
+		system(time_consumption);
 	}
 	
 	//Applies header (1 dent.)
-	for(int a = 0; a < 3; a++)
-	{	cout << "          ";
-		for(int b = 0; b < 7; b++) {cout << char(first) << char(second) << char(third);}
-		if(a == 1) {cout << "                                   header";}
-		cout << "\n";
-	}
-	for(int a = 0; a < time_consumption; a++) {}
+	cout << "          ███████\n"
+	     << "          ███████                                   header\n"
+	     << "          ███████\n";
+	system(time_consumption);
 	
 	//Blank
 	cout << "\n\n\n";
-	for(int a = 0; a < time_consumption; a++) {}
+	system(time_consumption);
 	
 	//Begins flashing characters in the terminal.
 	long long bit_count = 1;
@@ -189,13 +183,10 @@ int main()
 				#                   bit = 0                   #
 				##,                                         ,##
 				####*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*##*/
-				
-				for(int a = 0; a < 3; a++)
-				{	cout << "                                   ";
-					for(int b = 0; b < 7; b++) {cout << char(first) << char(second) << char(third);}
-					cout << "          " << bit_count << " of " << total_bits << "\n";
-				}
-				for(int a = 0; a < time_consumption; a++) {}
+				cout << "                                   ███████          " << bit_count << " of " << total_bits << "\n"
+				     << "                                   ███████          " << bit_count << " of " << total_bits << "\n"
+				     << "                                   ███████          " << bit_count << " of " << total_bits << "\n";
+				system(time_consumption);
 			}
 			else
 			{	/*####*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*######
@@ -204,19 +195,16 @@ int main()
 				#                   bit = 1                   #
 				##,                                         ,##
 				####*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*##*/
-				
-				for(int a = 0; a < 3; a++)
-				{	cout << "          ";
-					for(int b = 0; b < 7; b++) {cout << char(first) << char(second) << char(third);}
-					cout << "                                   " << bit_count << " of " << total_bits << "\n";
-				}
-				for(int a = 0; a < time_consumption; a++) {}
+				cout << "          ███████                                   " << bit_count << " of " << total_bits << "\n"
+				     << "          ███████                                   " << bit_count << " of " << total_bits << "\n"
+				     << "          ███████                                   " << bit_count << " of " << total_bits << "\n";
+				system(time_consumption);
 			}
 			
 			//..........Blank
 			if(bit_count < total_bits)
 			{	for(int a = 0; a < 3; a++) {cout << "                                                    " << bit_count << " of " << total_bits << "\n";}
-				for(int a = 0; a < time_consumption; a++) {}
+				system(time_consumption);
 			}
 			else {cout << "\n\n\n";}
 			
@@ -228,18 +216,15 @@ int main()
 	in_stream.close();
 	
 	//Applies footer (1 dent.)
-	for(int a = 0; a < 3; a++)
-	{	cout << "          ";
-		for(int b = 0; b < 7; b++) {cout << char(first) << char(second) << char(third);}
-		if(a == 1) {cout << "                                   footer";}
-		cout << "\n";
-	}
-	for(int a = 0; a < time_consumption; a++) {}
+	cout << "          ███████\n"
+	     << "          ███████                                   footer\n"
+	     << "          ███████\n";
+	system(time_consumption);
 	
 	//Rolls blank.
 	for(int a = 0; a < 15; a++)
 	{	cout << "\n\n\n";
-		for(int a = 0; a < time_consumption; a++) {}
+		system(time_consumption);
 	}
 	
 	cout << "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDone!";
