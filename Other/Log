@@ -2,6 +2,9 @@ CarbonRecord
 
 
 
+Version 1.0.2   Now char time_consumption[]  uses sleep.  Block char now in cpp.
+Device  2       Jan 26 2024
+
 Version 1.0.1   Universal drag-n-drop; gets path then fixes it if drag-n-dropped
 Device  2       regardless of single-quote presence & "enter" not being cleared,
                 meaning you can have options before it where user presses enter.
