@@ -43,15 +43,20 @@ int main()
 	
 	ifstream in_stream;
 	
-	cout << "\n\n"
-	     << "          ███████\n"
-	     << "          ███████\n"
-	     << "          ███████\n";
+	cout << "\n"
+	     << "        ███████████              ███████████\n"
+	     << "        ██       ██              ██       ██\n"
+	     << "        ██       ██              ██       ██\n"
+	     << "        ██       ██              ██       ██\n"
+	     << "        ██████████1              ██████████0\n\n"
 	
-	//Gets path to file from user.
-	cout << "\nMake sure the terminal background is dark."
-	     << "\nTape your photoresistor against the square."
-	     << "\nDrag & drop file into terminal or enter path:\n";
+	     << "                         ██\n\n"
+	
+	     << "     \\o-,.._                            _..,-o/\n"
+	     << "      Set terminal colors to \"White on black\".\n"
+	     << "         Tape one photoresistor to left eye\n"
+	     << "            thoroughly. Adjust brightness.\n"
+	     << "                  Drop/enter file:  ";
 	
 	//..........Gets path then fixes it if drag-n-dropped, regardless of single-quote presence and "enter"
 	//..........not being cleared, meaning you can have options before this, where the user presses enter.
@@ -129,14 +134,8 @@ int main()
 	total_bits *= 8;
 	in_stream.close();
 	
-	//Lets user begin denting.
-	system("clear"); system("clear");
-	cout << "                                                Press enter to\n"
-	     << "                                                roll the boxes...";
-	char wait[1];
-	cin.getline(wait, 1);
-	
 	//Rolls blank.
+	system("clear"); system("clear");
 	for(int a = 0; a < 10; a++)
 	{	cout << "\n\n\n";
 		system(time_consumption);
