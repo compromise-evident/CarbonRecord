@@ -43,6 +43,7 @@ int main()
 	
 	ifstream in_stream;
 	
+	system("clear"); system("clear");
 	cout << "\n"
 	     << "        ███████████              ███████████\n"
 	     << "        ██       ██              ██       ██\n"
@@ -53,7 +54,7 @@ int main()
 	     << "                         ██\n\n"
 	
 	     << "     \\o-,.._                            _..,-o/\n"
-	     << "      Set terminal colors to \"White on black\".\n"
+	     << "      Set terminal to 80x24, \"White on black\".\n"
 	     << "         Tape one photoresistor to left eye\n"
 	     << "            thoroughly. Adjust brightness.\n"
 	     << "                  Drop/enter file:  ";
