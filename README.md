@@ -19,7 +19,7 @@ https://user-images.githubusercontent.com/75550631/216291489-019e72ae-b6fe-4cee-
 https://user-images.githubusercontent.com/75550631/216505700-cb351c48-0b0d-4508-a006-fa156a993960.mp4
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/compromise-evident/CarbonRecord/main/Other/Terminal_afd5817742608a3645f1ebb4dfdc0698.png">
+  <img src="https://raw.githubusercontent.com/compromise-evident/CarbonRecord/main/Other/Terminal_a95716418aa2f910ed18837d7f1e77f4.png">
 </p>
 
 <br>
