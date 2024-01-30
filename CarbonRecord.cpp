@@ -206,7 +206,7 @@ int main()
 			{	for(int a = 0; a < 3; a++) {cout << "                                                    " << bit_count << " of " << total_bits << "\n";}
 				system(time_consumption);
 			}
-			else {cout << "\n\n\n";}
+			else {cout << "\n\n\n"; system(time_consumption);}
 			
 			bit_count++;
 		}
