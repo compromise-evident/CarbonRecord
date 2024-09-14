@@ -1,4 +1,4 @@
-/// CarbonRecord - preserve data on fluorocarbon fishing line -                 Run it: "apt install g++ geany". Open this in Geany. Hit F9 once. F5 to run.
+/// CarbonRecord - preserve data on fluorocarbon fishing line -                 Run it: "apt install g++ geany". Open the .cpp in Geany. Hit F9 once. F5 to run.
 ///                imprescriptible multi-millennium storage.
 
 
