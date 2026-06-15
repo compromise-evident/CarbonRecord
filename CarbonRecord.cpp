@@ -1,5 +1,6 @@
 //YOUR CONTROLS:                                                                Run it: "apt install g++ geany". Open the .cpp in Geany. Hit F9 once. F5 to run.
-char time_consumption[100] = {"sleep 0.19"}; //Increase for slower boxes.
+char time_consumption[] = {"sleep 0.19"}; //Smaller = faster boxes.
+
 
 
 /*Version 1.0.3
