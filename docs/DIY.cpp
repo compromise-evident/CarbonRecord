@@ -3,18 +3,17 @@
 
 #include <fstream>
 #include <iostream>
+#include <string>
 using namespace std;
 int main()
 {	int raw_byte;
 	char file_byte;
 	ifstream in_stream;
 	
-	//Gets path, fixes it, tries it.
-	cout << "\nDrop/enter file:\n";
-	char path[100000] = {'\0'}; cin.getline(path, 100000); if(path[0] == '\0') {cin.getline(path, 100000);}
-	if(path[0] == '\'') {for(int bm = 0, a = 0; a < 100000; a++) {if(path[a] != '\'') {path[bm] = path[a]; if(path[bm] == '\\') {path[bm] = '\'';} bm++;}}}
-	for(int a = 99999; a >= 0; a--) {if(path[a] != '\0') {if(path[a] == ' ') {path[a] = '\0';} break;}}
-	in_stream.open(path); if(in_stream.fail() == true) {cout << "\nNo path " << path << "\n"; return 0;} in_stream.close();
+	//Gets path, fixes it if dropped.
+	cout << "\nDrop/enter file:\n"; string path; getline(cin, path); if(path[0] == '\0') {getline(cin, path);}
+	if(path[0] == '\'') {path.erase(0, 1); path.pop_back(); path.pop_back();}
+	in_stream.open(path); if(in_stream.fail()) {cout << "\nNo path " << path << "\n"; return 1;} in_stream.close();
 	
 	//Stream begins.
 	in_stream.open(path);
