@@ -1,17 +1,17 @@
 Version 1.0.3   Replaced system("clear"); because it's now broken??????? Path to
-Device  2       file (Drop/enter path) is modernized. A few aesthetic changes.
+                file (Drop/enter path) is modernized. A few aesthetic changes.
                 2026_06_14
 
 Version 1.0.2   Now char time_consumption[]  uses sleep.  Block char now in cpp.
-Device  2       Jan 26 2024
+                Jan 26 2024
 
 Version 1.0.1   Universal drag-n-drop; gets path then fixes it if drag-n-dropped
-Device  2       regardless of single-quote presence & "enter" not being cleared,
+                regardless of single-quote presence & "enter" not being cleared,
                 meaning you can have options before it where user presses enter.
                 Jan 4 2024
 
 Version 1.0.0   Previous use of a brushed motor resulted in that motor misfiring
-Device  2       every long once in a while. I guess graphite brushes are not for
+                every long once in a while. I guess graphite brushes are not for
                 jerking action. v2 uses an electromagnet of a 12-volt automotive
                 relay,  pulling a metal  slammer. Placing a magnet on top of the
                 slammer allows it to slam with a much greater force. The slammer
@@ -19,7 +19,7 @@ Device  2       every long once in a while. I guess graphite brushes are not for
                 Feb 2 2023
 
 Version 1.0.0   Uses synchronous  microwave  motor for consistent line pull. The
-Device  1       second motor skeleton is only used as a  resistor  via its coils
+                second motor skeleton is only used as a  resistor  via its coils
                 so the denting-motor does not tear up the line.The mechanism for
                 winding the line back up is purposely permissive in slip so that
                 the line remains tight but not pulled more than given by puller.
