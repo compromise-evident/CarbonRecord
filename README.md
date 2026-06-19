@@ -1,4 +1,8 @@
-Run it: ```apt install g++ geany```. Open the .cpp in Geany. Hit F9 once. F5 to run.
+### Run it
+
+```apt install g++ geany```. Open the .cpp in Geany. Hit F9 once. F5 to run.
+
+<br>
 
 <p align="center">
   <img src="docs/data-on-the-line.jpg">
@@ -25,9 +29,8 @@ https://user-images.githubusercontent.com/75550631/216505700-cb351c48-0b0d-4508-
 </p>
 
 <br>
-<br>
 
-# Old version
+### Old version
 
 https://user-images.githubusercontent.com/75550631/215457914-69d32f73-8303-4fc8-962b-10e2f1c2aa0f.mp4
 
@@ -38,9 +41,8 @@ https://user-images.githubusercontent.com/75550631/215457914-69d32f73-8303-4fc8-
 Brushed motors are meant to spin, not jerk; every long once in a while it was unresponsive hence version 2.
 
 <br>
-<br>
 
-# Why
+### Why
 
 * To preserve something authorities can't kill by waiting; fluorocarbon fishing line
 won't degrade for a few thousand years, it's cheap, and easy to "write on."
@@ -54,9 +56,14 @@ should be a nightmare to search for if buried. Just tie the winding as a ring us
 additional fluorocarbon fishing line, rather than using a spool of a different material.
 
 <br>
+
+### DIY
+
+https://github.com/compromise-evident/what-not/blob/main/process_file_by_bits.cpp
+
 <br>
 
-# Appendix
+### Appendix
 
 CarbonRecord has been written about on
 [HACKADAY](https://hackaday.com/2023/11/08/forever-writing-on-monofilament-fishing-line/)
